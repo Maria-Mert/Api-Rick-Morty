@@ -1,0 +1,73 @@
+body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+
+.carta {
+    display: flex;
+    background-color: rgba(226, 226, 226, 0.479);
+    border: 1px solid #b1b1b1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.carta img {
+    max-width: auto;
+    max-height: 180px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.info {
+    flex: 1;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.contenido {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.columna {
+    flex: 1;
+}
+
+h1{
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    line-height: 0.2;
+
+}
+
+h2{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 0.7;
+}
+
+h3{
+    font-size:18px;
+    font-family:Roboto, sans-serif;
+    font-weight:300;
+    line-height: 0.8;
+}
+
+
+article{
+    justify-content: left;
+    align-items: left;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
